@@ -9,6 +9,10 @@ import Foundation
 import UIKit
 
 class iTunesScreenShotListViewModel {
+    enum params: String {
+        case media = "software"
+        case limit = "5"
+    }
     
     var screenShots = [iTunesScreenShots]()
     var itunesResult = [String]()
@@ -23,7 +27,7 @@ class iTunesScreenShotListViewModel {
     var onError : ()->() = {}
     
     public func requestForItunes(searchText: String) {
-        APIManager.shared.requestForItunes(sender: self, selector:  #selector(self.response(data:)), media: "software", limit: "5", searchText: searchText)
+        APIManager.shared.requestForItunes(sender: self, selector:  #selector(self.response(data:)), media: params.media.rawValue, limit: params.limit.rawValue, searchText: searchText)
     }
 
     @objc func response(data: Any?) {
