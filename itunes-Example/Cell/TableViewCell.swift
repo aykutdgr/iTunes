@@ -2,7 +2,7 @@
 //  TableViewCell.swift
 //  itunes-Example
 //
-//  Created by Samet Dogru on 3.03.2021.
+//  Created by Aykut Dogru on 7.03.2021.
 //
 
 import UIKit

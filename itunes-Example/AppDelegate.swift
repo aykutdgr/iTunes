@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  itunes-Example
 //
-//  Created by Aykut Dogru on 22.02.2021.
+//  Created by Aykut Dogru on 7.03.2021.
 //
 
 import UIKit
@@ -10,10 +10,18 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        
+        window = UIWindow(frame: UIScreen.main.bounds)
+        if let splashvc = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "ViewController") as? ViewController {
+            window?.rootViewController = splashvc
+        }
+        window?.makeKeyAndVisible()
+        
         return true
     }
 

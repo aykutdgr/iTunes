@@ -2,28 +2,34 @@
 //  PreviewViewController.swift
 //  itunes-Example
 //
-//  Created by AykutDgr on 7.03.2021.
+//  Created by Aykut Dogru on 7.03.2021.
 //
 
 import UIKit
 
 class PreviewViewController: UIViewController {
 
+    @IBOutlet weak var imgPreview: UIImageView!
+    @IBOutlet weak var bgView: UIView!
+    var img: UIImage?
+
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        self.initUI()
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+    private func initUI() {
+        self.imgPreview.image = self.img
+        
+        let tap = UITapGestureRecognizer(target: self, action: #selector(self.handleTap(_:)))
+        bgView.addGestureRecognizer(tap)
     }
-    */
+    
+    @objc func handleTap(_ sender: UITapGestureRecognizer? = nil) {
+        self.dismiss(animated: true, completion: nil)
+    }
+}
 
+extension PreviewViewController: StoryboardInstatiate, Reusable {
+    public static var storyboard: Storyboard { return .main }
 }

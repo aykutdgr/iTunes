@@ -2,7 +2,7 @@
 //  itunes_ExampleUITests.swift
 //  itunes-ExampleUITests
 //
-//  Created by Samet Dogru on 16.02.2021.
+//  Created by Aykut Dogru on 7.03.2021.
 //
 
 import XCTest

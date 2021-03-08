@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -15,6 +15,25 @@
 		0444C44925DC62E7005A2D72 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0444C44725DC62E7005A2D72 /* LaunchScreen.storyboard */; };
 		0444C45425DC62E7005A2D72 /* itunes_ExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444C45325DC62E7005A2D72 /* itunes_ExampleTests.swift */; };
 		0444C45F25DC62E7005A2D72 /* itunes_ExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444C45E25DC62E7005A2D72 /* itunes_ExampleUITests.swift */; };
+		0444C48B25DD8DE0005A2D72 /* Storyboards.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444C48925DD8DDF005A2D72 /* Storyboards.swift */; };
+		0444C48C25DD8DE0005A2D72 /* StoryboardInstantiate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444C48A25DD8DDF005A2D72 /* StoryboardInstantiate.swift */; };
+		0444C49125DD8E2B005A2D72 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444C49025DD8E2B005A2D72 /* Reusable.swift */; };
+		0444C4B925DDE998005A2D72 /* TableView-Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0444C4B825DDE998005A2D72 /* TableView-Extension.swift */; };
+		04C34EFE25F2DBF4001FEB74 /* iTunesSearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C34EFD25F2DBF4001FEB74 /* iTunesSearchViewModel.swift */; };
+		04C34F0925F2DD2A001FEB74 /* iTunesScreenShots.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C34F0825F2DD2A001FEB74 /* iTunesScreenShots.swift */; };
+		04E9457B25F00E0500D82EDD /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E9457925F00E0500D82EDD /* TableViewCell.swift */; };
+		04E9457C25F00E0500D82EDD /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04E9457A25F00E0500D82EDD /* TableViewCell.xib */; };
+		465BAE7D230E026A2B747129 /* Pods_itunes_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 657EC747CCFC106FAEE2D1D2 /* Pods_itunes_Example.framework */; };
+		F1B06BF025F5579200BDBA1A /* PreviewViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1B06BEF25F5579200BDBA1A /* PreviewViewController.swift */; };
+		F1CF2A6125F65F6B00FDE616 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF2A6025F65F6B00FDE616 /* Constants.swift */; };
+		F1CF2A6725F65FF200FDE616 /* iTunesRequestRM.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF2A6625F65FF200FDE616 /* iTunesRequestRM.swift */; };
+		F1CF2A6F25F660DD00FDE616 /* iTunesResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF2A6E25F660DD00FDE616 /* iTunesResponse.swift */; };
+		F1CF2A7A25F6626200FDE616 /* iTunesRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF2A7925F6626200FDE616 /* iTunesRequest.swift */; };
+		F1CF2A8225F662AA00FDE616 /* NetworkRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF2A8125F662AA00FDE616 /* NetworkRequest.swift */; };
+		F1CF2A8725F662C700FDE616 /* ResponseEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF2A8625F662C700FDE616 /* ResponseEmpty.swift */; };
+		F1CF2A8C25F662EF00FDE616 /* CustomExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF2A8B25F662EF00FDE616 /* CustomExtensions.swift */; };
+		F1CF2A9325F6634100FDE616 /* TestEnv.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF2A9125F6634100FDE616 /* TestEnv.swift */; };
+		F1CF2A9825F6639000FDE616 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1CF2A9725F6639000FDE616 /* APIManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +68,27 @@
 		0444C45A25DC62E7005A2D72 /* itunes-ExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "itunes-ExampleUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0444C45E25DC62E7005A2D72 /* itunes_ExampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = itunes_ExampleUITests.swift; sourceTree = "<group>"; };
 		0444C46025DC62E7005A2D72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0444C48925DD8DDF005A2D72 /* Storyboards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboards.swift; sourceTree = "<group>"; };
+		0444C48A25DD8DDF005A2D72 /* StoryboardInstantiate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StoryboardInstantiate.swift; sourceTree = "<group>"; };
+		0444C49025DD8E2B005A2D72 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
+		0444C4B825DDE998005A2D72 /* TableView-Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TableView-Extension.swift"; sourceTree = "<group>"; };
+		04C34EFD25F2DBF4001FEB74 /* iTunesSearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesSearchViewModel.swift; sourceTree = "<group>"; };
+		04C34F0825F2DD2A001FEB74 /* iTunesScreenShots.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iTunesScreenShots.swift; sourceTree = "<group>"; };
+		04E9457925F00E0500D82EDD /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		04E9457A25F00E0500D82EDD /* TableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TableViewCell.xib; sourceTree = "<group>"; };
+		657EC747CCFC106FAEE2D1D2 /* Pods_itunes_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_itunes_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CFAAA4F8FA2B88B09F2AC78 /* Pods-itunes-Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itunes-Example.release.xcconfig"; path = "Target Support Files/Pods-itunes-Example/Pods-itunes-Example.release.xcconfig"; sourceTree = "<group>"; };
+		9A98549A42740BBEB75448E6 /* Pods-itunes-Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-itunes-Example.debug.xcconfig"; path = "Target Support Files/Pods-itunes-Example/Pods-itunes-Example.debug.xcconfig"; sourceTree = "<group>"; };
+		F1B06BEF25F5579200BDBA1A /* PreviewViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PreviewViewController.swift; sourceTree = "<group>"; };
+		F1CF2A6025F65F6B00FDE616 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		F1CF2A6625F65FF200FDE616 /* iTunesRequestRM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesRequestRM.swift; sourceTree = "<group>"; };
+		F1CF2A6E25F660DD00FDE616 /* iTunesResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesResponse.swift; sourceTree = "<group>"; };
+		F1CF2A7925F6626200FDE616 /* iTunesRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = iTunesRequest.swift; sourceTree = "<group>"; };
+		F1CF2A8125F662AA00FDE616 /* NetworkRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkRequest.swift; sourceTree = "<group>"; };
+		F1CF2A8625F662C700FDE616 /* ResponseEmpty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResponseEmpty.swift; sourceTree = "<group>"; };
+		F1CF2A8B25F662EF00FDE616 /* CustomExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomExtensions.swift; sourceTree = "<group>"; };
+		F1CF2A9125F6634100FDE616 /* TestEnv.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestEnv.swift; sourceTree = "<group>"; };
+		F1CF2A9725F6639000FDE616 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +96,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				465BAE7D230E026A2B747129 /* Pods_itunes_Example.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +124,8 @@
 				0444C45225DC62E7005A2D72 /* itunes-ExampleTests */,
 				0444C45D25DC62E7005A2D72 /* itunes-ExampleUITests */,
 				0444C43A25DC62E4005A2D72 /* Products */,
+				689C83865E9408CF5E531417 /* Pods */,
+				09FF54553209507E88AB1AD2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,13 +142,20 @@
 		0444C43B25DC62E4005A2D72 /* itunes-Example */ = {
 			isa = PBXGroup;
 			children = (
+				0444C4B325DDE784005A2D72 /* Storyboard */,
+				F1CF2A6525F65FEC00FDE616 /* API */,
+				0444C46F25DD7D31005A2D72 /* Model */,
+				04C34EF625F2DA4B001FEB74 /* ViewModel */,
+				04C34EEB25F2D564001FEB74 /* View */,
+				F1B06BF725F55D6100BDBA1A /* Cell */,
+				F1B06BEE25F5577A00BDBA1A /* Preview */,
+				0444C4BD25DDE9AE005A2D72 /* Extension */,
+				F1CF2AB425F6797D00FDE616 /* Utils */,
+				0444C44A25DC62E7005A2D72 /* Info.plist */,
 				0444C43C25DC62E4005A2D72 /* AppDelegate.swift */,
 				0444C43E25DC62E4005A2D72 /* SceneDelegate.swift */,
-				0444C44025DC62E4005A2D72 /* ViewController.swift */,
-				0444C44225DC62E4005A2D72 /* Main.storyboard */,
 				0444C44525DC62E7005A2D72 /* Assets.xcassets */,
 				0444C44725DC62E7005A2D72 /* LaunchScreen.storyboard */,
-				0444C44A25DC62E7005A2D72 /* Info.plist */,
 			);
 			path = "itunes-Example";
 			sourceTree = "<group>";
@@ -128,6 +178,138 @@
 			path = "itunes-ExampleUITests";
 			sourceTree = "<group>";
 		};
+		0444C46F25DD7D31005A2D72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				04C34F0825F2DD2A001FEB74 /* iTunesScreenShots.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0444C4B325DDE784005A2D72 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				0444C48A25DD8DDF005A2D72 /* StoryboardInstantiate.swift */,
+				0444C48925DD8DDF005A2D72 /* Storyboards.swift */,
+				0444C49025DD8E2B005A2D72 /* Reusable.swift */,
+				0444C44225DC62E4005A2D72 /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		0444C4BD25DDE9AE005A2D72 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				F1CF2A8B25F662EF00FDE616 /* CustomExtensions.swift */,
+				0444C4B825DDE998005A2D72 /* TableView-Extension.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		04C34EEB25F2D564001FEB74 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0444C44025DC62E4005A2D72 /* ViewController.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		04C34EF625F2DA4B001FEB74 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				04C34EFD25F2DBF4001FEB74 /* iTunesSearchViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		09FF54553209507E88AB1AD2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				657EC747CCFC106FAEE2D1D2 /* Pods_itunes_Example.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		689C83865E9408CF5E531417 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9A98549A42740BBEB75448E6 /* Pods-itunes-Example.debug.xcconfig */,
+				8CFAAA4F8FA2B88B09F2AC78 /* Pods-itunes-Example.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F1B06BEE25F5577A00BDBA1A /* Preview */ = {
+			isa = PBXGroup;
+			children = (
+				F1B06BEF25F5579200BDBA1A /* PreviewViewController.swift */,
+			);
+			path = Preview;
+			sourceTree = "<group>";
+		};
+		F1B06BF725F55D6100BDBA1A /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				04E9457925F00E0500D82EDD /* TableViewCell.swift */,
+				04E9457A25F00E0500D82EDD /* TableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
+		F1CF2A6525F65FEC00FDE616 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				F1CF2A9725F6639000FDE616 /* APIManager.swift */,
+				F1CF2A8125F662AA00FDE616 /* NetworkRequest.swift */,
+				F1CF2AA825F677FF00FDE616 /* RequestModel */,
+				F1CF2AA925F6780200FDE616 /* Request */,
+				F1CF2AAA25F6780500FDE616 /* Response */,
+				F1CF2AAB25F6784600FDE616 /* Environments */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+		F1CF2AA825F677FF00FDE616 /* RequestModel */ = {
+			isa = PBXGroup;
+			children = (
+				F1CF2A6625F65FF200FDE616 /* iTunesRequestRM.swift */,
+			);
+			path = RequestModel;
+			sourceTree = "<group>";
+		};
+		F1CF2AA925F6780200FDE616 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				F1CF2A7925F6626200FDE616 /* iTunesRequest.swift */,
+			);
+			path = Request;
+			sourceTree = "<group>";
+		};
+		F1CF2AAA25F6780500FDE616 /* Response */ = {
+			isa = PBXGroup;
+			children = (
+				F1CF2A6E25F660DD00FDE616 /* iTunesResponse.swift */,
+				F1CF2A8625F662C700FDE616 /* ResponseEmpty.swift */,
+			);
+			path = Response;
+			sourceTree = "<group>";
+		};
+		F1CF2AAB25F6784600FDE616 /* Environments */ = {
+			isa = PBXGroup;
+			children = (
+				F1CF2A9125F6634100FDE616 /* TestEnv.swift */,
+			);
+			path = Environments;
+			sourceTree = "<group>";
+		};
+		F1CF2AB425F6797D00FDE616 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				F1CF2A6025F65F6B00FDE616 /* Constants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,9 +317,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 0444C46325DC62E7005A2D72 /* Build configuration list for PBXNativeTarget "itunes-Example" */;
 			buildPhases = (
+				3E2D90199248FAF597575D28 /* [CP] Check Pods Manifest.lock */,
 				0444C43525DC62E4005A2D72 /* Sources */,
 				0444C43625DC62E4005A2D72 /* Frameworks */,
 				0444C43725DC62E4005A2D72 /* Resources */,
+				5FBF796C0EECFAFD75AFE893 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -232,6 +416,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0444C44925DC62E7005A2D72 /* LaunchScreen.storyboard in Resources */,
+				04E9457C25F00E0500D82EDD /* TableViewCell.xib in Resources */,
 				0444C44625DC62E7005A2D72 /* Assets.xcassets in Resources */,
 				0444C44425DC62E4005A2D72 /* Main.storyboard in Resources */,
 			);
@@ -253,13 +438,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3E2D90199248FAF597575D28 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-itunes-Example-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5FBF796C0EECFAFD75AFE893 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-itunes-Example/Pods-itunes-Example-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-itunes-Example/Pods-itunes-Example-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-itunes-Example/Pods-itunes-Example-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		0444C43525DC62E4005A2D72 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F1CF2A8C25F662EF00FDE616 /* CustomExtensions.swift in Sources */,
+				F1CF2A6F25F660DD00FDE616 /* iTunesResponse.swift in Sources */,
+				F1CF2A6725F65FF200FDE616 /* iTunesRequestRM.swift in Sources */,
+				0444C49125DD8E2B005A2D72 /* Reusable.swift in Sources */,
+				0444C4B925DDE998005A2D72 /* TableView-Extension.swift in Sources */,
 				0444C44125DC62E4005A2D72 /* ViewController.swift in Sources */,
 				0444C43D25DC62E4005A2D72 /* AppDelegate.swift in Sources */,
+				F1CF2A6125F65F6B00FDE616 /* Constants.swift in Sources */,
+				0444C48B25DD8DE0005A2D72 /* Storyboards.swift in Sources */,
+				F1B06BF025F5579200BDBA1A /* PreviewViewController.swift in Sources */,
+				F1CF2A7A25F6626200FDE616 /* iTunesRequest.swift in Sources */,
+				F1CF2A8225F662AA00FDE616 /* NetworkRequest.swift in Sources */,
+				F1CF2A9325F6634100FDE616 /* TestEnv.swift in Sources */,
+				04C34EFE25F2DBF4001FEB74 /* iTunesSearchViewModel.swift in Sources */,
+				F1CF2A8725F662C700FDE616 /* ResponseEmpty.swift in Sources */,
+				04C34F0925F2DD2A001FEB74 /* iTunesScreenShots.swift in Sources */,
+				0444C48C25DD8DE0005A2D72 /* StoryboardInstantiate.swift in Sources */,
+				F1CF2A9825F6639000FDE616 /* APIManager.swift in Sources */,
+				04E9457B25F00E0500D82EDD /* TableViewCell.swift in Sources */,
 				0444C43F25DC62E4005A2D72 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +610,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -421,7 +665,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 14.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -433,16 +677,18 @@
 		};
 		0444C46425DC62E7005A2D72 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9A98549A42740BBEB75448E6 /* Pods-itunes-Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "itunes-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "smttdgr.itunes-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "aykutdgr.itunes-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -451,16 +697,18 @@
 		};
 		0444C46525DC62E7005A2D72 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CFAAA4F8FA2B88B09F2AC78 /* Pods-itunes-Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = "itunes-Example/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "smttdgr.itunes-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "aykutdgr.itunes-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";

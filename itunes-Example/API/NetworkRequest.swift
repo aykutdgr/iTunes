@@ -15,20 +15,14 @@ class NetworkRequest<ReqM: Codable, RM: Codable>: Request {
         }
         
         paramaters = reqM.dictionary
-        
         createURLString()
-        let p = path + "?" + "term=software&media=software&limit=5"
-        var urlRequest = URLRequest(url: URL(string: p)!)
+        
+        let url = path + "?" + paramaters.stringFromHttpParameters()
+        var urlRequest = URLRequest(url: URL(string: url)!)
         urlRequest.httpMethod = httpMethod
-
-        do {
-           // urlRequest.httpBody = try JSONSerialization.data(withJSONObject: paramaters, options: [])
-        } catch {}
-
+         
         let contentType = "application/x-www-form-urlencoded"
-
-        urlRequest.setValue(contentType, forHTTPHeaderField: "Content-Type")
-        urlRequest.setValue(Constants().osTypeString, forHTTPHeaderField: "Device-Platform")
+        urlRequest.setValue(contentType, forHTTPHeaderField: "Content-Type" )
 
         
         Alamofire.request(urlRequest).validate(statusCode: 200..<300).validate(contentType: ["text/javascript"]).responseJSON { (response) in
@@ -60,23 +54,17 @@ class NetworkRequest<ReqM: Codable, RM: Codable>: Request {
                 }
             }
         }
-        
     }
     
     func hasInternet() -> Bool {
         if !(NetworkReachabilityManager()?.networkReachabilityStatus != .notReachable && NetworkReachabilityManager()?.networkReachabilityStatus != .unknown) {
-            NotificationCenter.default.post(name: Notification.Name(Constants().obs_noInternetConnection), object: nil)
             return false
         }
         return true
     }
 
     func createURLString() {
-        #if DEBUG
         path = TestEnv.shared.baseUrl.relativeString + endpoint
-        #else
-        path = ProdEnv.shared.baseUrl.relativeString + endpoint
-        #endif
     }
 }
 
@@ -85,3 +73,4 @@ protocol Request: class {
     var paramaters: [String: Any] { get }
     var checkInternet: Bool { get }
 }
+
