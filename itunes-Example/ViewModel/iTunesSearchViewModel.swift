@@ -65,7 +65,7 @@ class iTunesScreenShotListViewModel {
         
         
         let operation2 = BlockOperation(block: {
-            let Queue2 = Array(self.itunesResult[((self.itunesResult.count/3)+1)..<((self.itunesResult.count - self.itunesResult.count/3))])
+            let Queue2 = Array(self.itunesResult[((self.itunesResult.count/3))..<((self.itunesResult.count - self.itunesResult.count/3))])
             Queue2.forEach { (imgURL) in
                     guard let image = self.downloadImageWithURL(url: imgURL) else { return }
                     OperationQueue.main.addOperation({
@@ -77,7 +77,7 @@ class iTunesScreenShotListViewModel {
         
         
         let operation3 = BlockOperation(block: {
-            let Queue3 = Array(self.itunesResult[((((self.itunesResult.count - self.itunesResult.count/3)))+1)..<((self.itunesResult.count))])
+            let Queue3 = Array(self.itunesResult[((((self.itunesResult.count - self.itunesResult.count/3))))..<((self.itunesResult.count))])
             Queue3.forEach { (imgURL) in
                     guard let image = self.downloadImageWithURL(url: imgURL) else { return }
                     OperationQueue.main.addOperation({
@@ -112,6 +112,7 @@ class iTunesScreenShotListViewModel {
             self.screenShots.append(iTunesScreenShots(size: "100-250kb", images: self.lowSizeArray))
             self.screenShots.append(iTunesScreenShots(size: "250-500kb", images: self.mediumSizeArray))
             self.screenShots.append(iTunesScreenShots(size: "500+kb", images: self.highSizeArray))
+
             self.reloadData()
         }
     }
